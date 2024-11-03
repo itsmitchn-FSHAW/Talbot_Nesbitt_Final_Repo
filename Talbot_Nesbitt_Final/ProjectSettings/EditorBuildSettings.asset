@@ -12,6 +12,6 @@ EditorBuildSettings:
     path: Assets/Scenes/scene_CT_Level1.unity
     guid: 8a8b4945e1c387a4790cba5f2239665e
   - enabled: 1
-    path: Assets/Scenes/scene_MN_Level2.unity
+    path: Assets/Nesbitt_Mitch/scene/scene_MN_Level2.unity
     guid: f6b12ef369f866146b9998a697135fef
   m_configObjects: {}
