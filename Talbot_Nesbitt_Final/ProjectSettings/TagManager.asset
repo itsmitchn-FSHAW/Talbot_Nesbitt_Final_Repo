@@ -7,6 +7,15 @@ TagManager:
   - exit
   - item_Pickup
   - moveable_Box
+  - beam
+  - GROUND
+  - Item_Pickup_Big
+  - Crane
+  - False_Floor
+  - Item_Pickup_Gear
+  - Item_Pickup
+  - exploding_Foor
+  - isOff
   layers:
   - Default
   - TransparentFX

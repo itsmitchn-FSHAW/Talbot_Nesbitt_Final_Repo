@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95e66c6366d904e98bc83428217d4fd7, type: 3}
+  m_Name: sticky_material
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"Kind":"Flow","collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":164.5,"y":-14.45765},"zoom":1.0,"elements":[{"specifyFallback":false,"kind":"Object","defaultValues":{"name":{"$content":"player","$type":"System.String"},"object":null},"position":{"x":54.0,"y":-10.0},"guid":"60b338d8-d91c-41b5-87f7-e5cdcb889bf9","$version":"A","$type":"Unity.VisualScripting.GetVariable","$id":"9"},{"chainable":false,"parameterNames":["tag"],"member":{"name":"CompareTag","parameterTypes":["System.String"],"targetType":"UnityEngine.GameObject","targetTypeName":"UnityEngine.GameObject","$version":"A"},"defaultValues":{"target":null,"%tag":{"$content":"Player","$type":"System.String"}},"position":{"x":49.0,"y":-191.0},"guid":"127a67bb-7a49-407b-a771-0a651fd506ba","$version":"A","$type":"Unity.VisualScripting.InvokeMember","$id":"11"},{"chainable":false,"member":{"name":"velocity","parameterTypes":null,"targetType":"UnityEngine.Rigidbody2D","targetTypeName":"UnityEngine.Rigidbody2D","$version":"A"},"defaultValues":{"target":null,"input":{"x":0.0,"y":-0.08,"$type":"UnityEngine.Vector2"}},"position":{"x":306.0,"y":-165.0},"guid":"96928cb5-86f5-454d-8d05-8d8431e92916","$version":"A","$type":"Unity.VisualScripting.SetMember","$id":"15"},{"coroutine":false,"defaultValues":{"target":null},"position":{"x":-201.0,"y":-183.0},"guid":"171ce930-5753-436b-a077-e3707d9d2b9e","$version":"A","$type":"Unity.VisualScripting.OnTriggerEnter2D","$id":"18"},{"sourceUnit":{"$ref":"11"},"sourceKey":"exit","destinationUnit":{"$ref":"15"},"destinationKey":"assign","guid":"1d96e03e-92cb-458b-8934-2a6abd6b8ccb","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"18"},"sourceKey":"trigger","destinationUnit":{"$ref":"11"},"destinationKey":"enter","guid":"2a7e7a3b-96af-4929-ba80-ae635470092d","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"9"},"sourceKey":"value","destinationUnit":{"$ref":"15"},"destinationKey":"target","guid":"75e2522c-46fe-4bd2-a01d-28a1482cbac3","$type":"Unity.VisualScripting.ValueConnection"}],"$version":"A"}}'
+    _objectReferences: []
